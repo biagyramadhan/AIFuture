@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color:rgba(0,0,0,0.1);
+}
+
+header{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar{
+    padding: 20px 0;
+}
+
+.nav-item{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#teks{
+  color: #2a3586;
+  font-weight: 600;
+}
+
+#teks:hover{
+  color: #000;
+}
+
+
+.navbar-toggler .navbar-light {
+  border: none;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0;
+  outline: none;
+  width: 100%;
+}
+
+.top-banner{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.5)), url('../images/bg.jpg') no-repeat 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.content-header{
+  position: absolute;
+  top: 40%;
+  color: #f1f1f1;
+  width: 50%;
+}
+.content-header h1{
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.pengenalan{
+  padding: 10px;
+  background-color: #0D243C;
+}
+
+.content-profile{
+  margin: 30px;
+  display: block;
+  color: #fff;
+}
+
+#logo-intro{
+  height: 300px;
+}
+
+#body-h1{
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.fiture .content-body{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.profile{
+  margin: 30px;
+}
+#study{
+  padding-bottom: 40px;
+  height: 150px;
+  width: 150px;
+}
+
+.kemampuan{
+  background-color: #fff;
+}
+
+.sub-content{
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.kategori{
+  margin: 30px;
+}
+
+.weaks{
+  padding-top: 20px;
+  height: 250px;
+}
+.weaks .weak-ai{
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.5)), url('../images/weak-ai.png');
+  background-size: cover;
+}
+
+.weak-ai h3{
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+.weaks .weak-ai:hover{
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.3)), url('../images/weak-ai.png');
+  background-size: cover;
+}
+
+.supers{
+  padding-top: 20px;
+  height: 250px;
+}
+
+.super-ai h3{
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+
+.machine{
+  padding-top: 20px;
+  height: 250px;
+}
+
+.machine .super-ai{
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.5)), url('../images/machine-learning.jpg');
+  background-size: cover;
+}
+
+.machine .super-ai:hover{
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url('../images/machine-learning.jpg');
+  background-size: cover;
+}
+
+.deeps{
+  padding-top: 20px;
+  height: 250px;
+}
+
+.deeps .deep-learning{
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.5)), url('../images/deep-learning.jpeg');
+  background-size: cover;
+}
+
+.deep-learning h3{
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+
+.deeps .deep-learning:hover{
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url('../images/deep-learning.jpeg');
+  background-size: cover;
+}
+
+.supers .super-ai{
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.5)), url('../images/strong-ai.jpg');
+  background-size: cover;
+}
+
+.supers .super-ai:hover{
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.2)), url('../images/strong-ai.jpg');
+  background-size: cover;
+}
+.keunggulan{
+  background-color: #fff;
+}
+#photoKeunggulan{
+  height: 400px;
+  width: 100%;
+}
+.photo-content{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.sub-k-content{
+  padding-top: 80px;
+}

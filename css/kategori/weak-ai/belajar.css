@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color:rgba(0,0,0,0.1);
+}
+
+header{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+.navbar{
+    padding: 20px 0;
+}
+
+.nav-item{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#teks{
+  color: #2a3586;
+  font-weight: 600;
+}
+
+#teks:hover{
+  color: #000;
+}
+
+.navbar-toggler .navbar-light {
+  border: none;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 0;
+  outline: none;
+  width: 100%;
+}
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.top-banner{
+  height: 60%;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.5)), url('../../../images/bg-learning.png') no-repeat 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.content-header{
+  position: absolute;
+  top: 20%;
+  color: #f1f1f1;
+  width: 50%;
+}
+.content-header h1{
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.pengenalan{
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.content-profile{
+  margin: 60px;
+  display: block;
+  color: #000;
+}
+
+#logo-intro{
+  height: 300px;
+}
+
+#body-h1{
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #78b0a0;
+}
+
+#body-h2{
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #0000FF;
+}
